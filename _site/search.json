@@ -1,23 +1,23 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Abby’s Website",
+    "title": "Abby’s Website Home",
     "section": "",
     "text": "Welcome to my site. This page introduces what the site is about."
   },
   {
     "objectID": "index.html#about-this-site",
     "href": "index.html#about-this-site",
-    "title": "Abby’s Website",
+    "title": "Abby’s Website Home",
     "section": "About This Site",
-    "text": "About This Site\nA brief description of your work, research, or course project.\n\n1 + 1\n\n[1] 2"
+    "text": "About This Site\nI am using this website for my Interpreting Animal and Food Science Research class. I will be using it to publish some of the data I will be analyzing for my project."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]
