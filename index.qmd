@@ -1,0 +1,13 @@
+---
+title: "Home"
+---
+
+Welcome to my site. This page introduces what the site is about.
+
+## About This Site
+
+A brief description of your work, research, or course project.
+
+```{r}
+1 + 1
+```
