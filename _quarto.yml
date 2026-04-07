@@ -13,9 +13,10 @@ website:
 
 format:
   html:
-    theme: flatly
-    css: styles.css
-    toc: true
+    theme: 
+     - cosmo
+     - styles.scss
+    
 
 editor: visual
 

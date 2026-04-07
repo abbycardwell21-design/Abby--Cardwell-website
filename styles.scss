@@ -1,68 +1,40 @@
 /* Import a bubbly font */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Baloo+2:wght@400;600&display=swap');
 
-/* Color palette */
-$primary: #ff6fa5;
-$secondary: #ffc1da;
-$background: #fff0f6;
-$text: #5a2a3a;
+/* Force Bootstrap variables */
+$primary: #ff1493;
+$secondary: #ff69b4;
+$body-bg: #fff0f5;
 
-/* Base styles */
-body {
-  background-color: $background;
-  color: $text;
-  font-family: 'Fredoka', sans-serif;
+/* Apply pink globally */
+:root {
+  --bs-primary: #ff6fa5;
+  --bs-secondary: #ffc1da;
 }
 
-/* Headings (bubble style) */
-h1, h2, h3, h4 {
-  font-family: 'Baloo 2', cursive;
-  color: $primary;
-  text-shadow: 2px 2px 0px #ffffff;
+/* Background + text */
+body {
+  background-color: #fff0f6 !important;
+  color: #5a2a3a;
 }
 
 /* Navbar */
 .navbar {
-  background-color: $primary !important;
-}
-
-.navbar a {
-  color: white !important;
-  font-weight: 600;
+  background-color: #ff6fa5 !important;
 }
 
 /* Links */
 a {
-  color: $primary;
-}
-
-a:hover {
-  color: darken($primary, 10%);
+  color: #ff6fa5 !important;
 }
 
 /* Buttons */
-.btn {
-  background-color: $secondary;
-  border: none;
-  border-radius: 20px;
-  color: $text;
-  font-weight: bold;
+.btn-primary {
+  background-color: #ff6fa5 !important;
+  border-color: #ff6fa5 !important;
 }
 
-.btn:hover {
-  background-color: $primary;
-  color: white;
-}
-
-/* Cards / panels */
-.card {
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 4px 4px 0px #ffc1da;
-  padding: 1rem;
-}
-
-/* Add playful rounded edges everywhere */
-img, .card, .btn {
-  border-radius: 20px;
+/* Headings */
+h1, h2, h3 {
+  color: #ff6fa5 !important;
 }
