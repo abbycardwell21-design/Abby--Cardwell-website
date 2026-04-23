@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Abby Cardwell website"
+  title: "Abby Cardwell Website"
   navbar:
     left:
       - href: index.qmd

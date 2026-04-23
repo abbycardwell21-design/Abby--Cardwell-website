@@ -7,7 +7,3 @@ Welcome to my site. This page introduces what the site is about.
 ## About This Site
 
 I am using this website for my Interpreting Animal and Food Science Research class. I will be using it to publish some of the data I will be analyzing for my project.
-
-```{r}
-
-```

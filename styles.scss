@@ -1,40 +1,57 @@
-/* Import a bubbly font */
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Baloo+2:wght@400;600&display=swap');
+/*-- scss:defaults --*/
 
-/* Force Bootstrap variables */
-$primary: #ff1493;
-$secondary: #ff69b4;
-$body-bg: #fff0f5;
 
-/* Apply pink globally */
+// Bootstrap variables
+$primary: #d63384 ;
+$secondary: #6c757d ;
+
+/*-- scss:rules --*/
+
+// Apply colors globally
 :root {
   --bs-primary: #ff6fa5;
-  --bs-secondary: #ffc1da;
+  --bs-secondary: #ffffff;
 }
 
-/* Background + text */
+// Background + text
 body {
   background-color: #fff0f6 !important;
-  color: #5a2a3a;
+  color: #2b1b23;
 }
 
-/* Navbar */
+// Navbar
 .navbar {
   background-color: #ff6fa5 !important;
 }
 
-/* Links */
+// Links
 a {
-  color: #ff6fa5 !important;
+  color: white !important;
 }
 
-/* Buttons */
+// Buttons
 .btn-primary {
-  background-color: #ff6fa5 !important;
-  border-color: #ff6fa5 !important;
+  background-color: #d63384 !important;
+  border-color: #d63384 !important;
+  color: white !important;
 }
 
-/* Headings */
+// Headings
 h1, h2, h3 {
-  color: #ff6fa5 !important;
+  color: #b0256f !important;
 }
+
+// Navbar dropdown text
+.navbar .dropdown-menu a {
+  color: #2b1b23;
+}
+
+// Hover effect
+.navbar .dropdown-menu a:hover {
+  color: white;
+  background-color: #ff6fa5;
+}
+
+
+
+
